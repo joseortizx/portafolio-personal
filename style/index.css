@@ -78,3 +78,34 @@ h6 {
   color: var(--black);
   display: none; /* ACORDARSE DE SACAR */
 }
+/* ===== main ===== */
+.main {
+  margin: 2rem;
+}
+/* ===== section home ===== */
+.section__home div {
+  margin: 2rem 0;
+}
+.section__home--img img {
+  border-radius: 50%;
+}
+.section__home--welcome h1,
+h2 {
+  font-size: 1.7rem;
+}
+.name {
+  color: var(--yellow);
+  text-transform: uppercase;
+}
+.section__home--welcome p {
+  margin: 1.5rem 0;
+  font-weight: 300;
+}
+.btn {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 0.5rem;
+  border: 1px solid hsla(0, 0%, 0%, 0.155);
+  box-shadow: 0 0 5px 3px hsla(0, 0%, 0%, 0.146);
+}
