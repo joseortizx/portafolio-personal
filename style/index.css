@@ -15,6 +15,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Poppins";
+  color: var(--black);
+  text-align: center;
 }
 img,
 picture,
@@ -50,4 +52,29 @@ h6 {
   /* secondary */
   --black: hsl(0, 0%, 20%);
   --icons-black: hsl(0, 0%, 0%);
+}
+/* ===== header ===== */
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.08);
+}
+.header__nav--logo {
+  font-family: "Archivo Black";
+  font-size: 1.2rem;
+}
+.header__nav--list {
+  display: flex;
+  list-style: none;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+}
+.header__nav--list li a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: var(--black);
+  display: none; /* ACORDARSE DE SACAR */
 }
