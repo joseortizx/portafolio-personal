@@ -125,3 +125,16 @@ h6 {
   background-color: white;
   color: black;
 }
+/* ===== section about ===== */
+.section__about {
+  padding-bottom: 4rem; /* no olvidarse de cambiar por margin */
+}
+.section__about h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.section__about p {
+  margin-bottom: 1.5rem;
+}
