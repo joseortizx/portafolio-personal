@@ -137,4 +137,5 @@ h6 {
 }
 .section__about p {
   margin-bottom: 1.5rem;
+  font-weight: 300;
 }
