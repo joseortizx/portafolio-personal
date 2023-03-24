@@ -121,3 +121,7 @@ h6 {
   background-color: var(--icons-black);
   color: white;
 }
+.btn-white {
+  background-color: white;
+  color: black;
+}
