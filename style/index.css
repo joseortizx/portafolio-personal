@@ -93,10 +93,11 @@ h6 {
 }
 /* ===== main ===== */
 .main {
-  margin: 5rem 1rem;
+  margin: 5rem 0;
 }
 /* ===== section home ===== */
 .section__home {
+  margin: 0 1rem;
   margin-bottom: 4rem;
 }
 .section__home div {
@@ -139,6 +140,10 @@ h6 {
   color: black;
 }
 /* ===== section about ===== */
+.section__about {
+  background-color: hsla(0, 0%, 86%, 0.15);
+  padding: 1rem;
+}
 .section__about,
 .section__portfolio {
   margin-bottom: 4rem;
@@ -159,6 +164,7 @@ h6 {
 }
 /* ==== section portfolio ===== */
 .section__portfolio {
+  padding: 0 1rem;
   padding-bottom: 2rem;
 }
 .section__portfolio h2 {
