@@ -139,10 +139,12 @@ h6 {
   color: black;
 }
 /* ===== section about ===== */
-.section__about {
-  padding-bottom: 4rem; /* no olvidarse de cambiar por margin */
+.section__about,
+.section__portfolio {
+  margin-bottom: 4rem;
 }
-.section__about h2 {
+.section__about h2,
+.section__portfolio h2 {
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -154,4 +156,48 @@ h6 {
 }
 .section__about--btns {
   margin: 2rem 0;
+}
+/* ==== section portfolio ===== */
+.section__portfolio {
+  padding-bottom: 2rem;
+}
+.section__portfolio h2 {
+  font-weight: 700;
+  color: var(--yellow);
+}
+/* card */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 9px;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.121);
+  margin-bottom: 2rem;
+}
+.card__img {
+  width: 90%;
+}
+.card__img picture img {
+  border-radius: 9px;
+}
+.card__project {
+  margin-top: 1rem;
+}
+.card__project h3 {
+  font-weight: 500;
+}
+.card__project p {
+  font-weight: 300;
+}
+.card-btn {
+  font-family: "Roboto Mono";
+  margin: 1rem 0;
+  background-color: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 1px hsla(0, 0%, 0%, 0.144);
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
 }
