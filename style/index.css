@@ -11,6 +11,9 @@ html,
 body {
   height: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -31,6 +34,9 @@ button,
 textarea,
 select {
   font: inherit;
+}
+a {
+  color: white;
 }
 p,
 h1,
@@ -54,6 +60,13 @@ h6 {
   --icons-black: hsl(0, 0%, 0%);
 }
 /* ===== header ===== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
 .header__nav {
   display: flex;
   justify-content: space-between;
@@ -76,11 +89,11 @@ h6 {
   margin: 0 0.5rem;
   text-decoration: none;
   color: var(--black);
-  display: none; /* ACORDARSE DE SACAR */
+  /* display: none; */ /* ACORDARSE DE SACAR */
 }
 /* ===== main ===== */
 .main {
-  margin: 2rem 1rem;
+  margin: 5rem 1rem;
 }
 /* ===== section home ===== */
 .section__home {
