@@ -221,3 +221,11 @@ h6 {
   background-color: white;
   box-shadow: 0 0 5px 2px hsla(0, 0%, 0%, 0.144);
 }
+/* ===== footer ===== */
+.footer {
+  background-color: var(--black);
+  padding: 1rem;
+}
+.ft-section {
+  margin: 1rem 0;
+}
