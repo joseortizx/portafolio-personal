@@ -145,17 +145,20 @@ h6 {
   padding: 1rem;
 }
 .section__about,
-.section__portfolio {
+.section__portfolio,
+.section__contact {
   margin-bottom: 4rem;
 }
 .section__about h2,
-.section__portfolio h2 {
+.section__portfolio h2,
+.section__contact h2 {
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
-.section__about p {
+.section__about p,
+.section__contact p {
   margin-bottom: 1.5rem;
   font-weight: 300;
 }
@@ -206,4 +209,15 @@ h6 {
   box-shadow: 0 0 5px 1px hsla(0, 0%, 0%, 0.144);
   padding: 0.5rem 1rem;
   margin: 0.3rem;
+}
+/* ===== section contact ===== */
+.section__contact {
+  padding-bottom: 2rem;
+}
+.section__contact button {
+  border-radius: 5px;
+  height: 2rem;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 5px 2px hsla(0, 0%, 0%, 0.144);
 }
