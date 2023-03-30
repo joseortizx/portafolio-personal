@@ -51,6 +51,9 @@ h6 {
 #__next {
   isolation: isolate;
 }
+section[id] {
+  scroll-margin-top: 5rem;
+}
 /* ===== custom properties ===== */
 :root {
   /* primary */
@@ -215,6 +218,9 @@ h6 {
   padding: 0.5rem 1rem;
   margin: 0.3rem;
 }
+.none {
+  display: none;
+}
 /* ===== section contact ===== */
 .section__contact {
   padding-bottom: 2rem;
@@ -250,6 +256,28 @@ h6 {
   .section__home--welcome {
     max-width: 500px;
   }
+  .section__about {
+    padding: 11rem 1rem;
+  }
+  .section__portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 800px;
+  }
+  .card__img {
+    width: 60%;
+  }
+  .card__description {
+    width: 50%;
+  }
+  .none {
+    display: block;
+  }
 }
 @media (min-width: 1000px) {
   .section__home--welcome h1 {
@@ -261,5 +289,24 @@ h6 {
   }
   .section__home--img img {
     max-width: 500px;
+  }
+  .section__about {
+    display: flex;
+    justify-content: space-around;
+  }
+  .first-child {
+    max-width: 600px;
+  }
+  .second-child {
+    min-width: 500px;
+  }
+  .btn-desktop {
+    border-radius: 10px;
+    font-size: 5rem;
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 0 0 10px 7px hsla(0, 0%, 0%, 0.144);
+    background-color: white;
+    color: black;
   }
 }
